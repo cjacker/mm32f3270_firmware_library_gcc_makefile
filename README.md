@@ -12,8 +12,10 @@ Changes from original "MM32F3270_Lib_Samples" includes:
 Besides above changes, a Keil MDK pack file downloaded from official website and a 'pyocd.yaml' config file 
 had been added to support pyOCD.
 
-The default part set to "mm32f3273g8p", if you work with other mm32f3270 part models, you should:
+The default part set to "mm32f3273g8p" (Pitaya-Lite board), if you work with other mm32f3270 part models, you should:
 - change the target name in 'Makefile'.
 - change the RAM and FLASH SIZE in 'Device/mm32f3273g8p.ld'.
 
 To build it, type 'make'.
+
+<img src="https://github.com/cjacker/mm32f3270_firmware_library_gcc_makefile/raw/main/pitaya-lite2.png" />
